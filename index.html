@@ -1,0 +1,258 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>#noestimates</title>
+
+		<meta name="description" content="Prezentaja na Agile Warsaw">
+		<meta name="author" content="Adam Matlacz">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="css/font-awesome/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige_custom.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!--################## Slide ##################-->
+				<section>
+					<h1  style="white-space: nowrap;">#NoEstimates</h1>
+					<h3>Why estimates are waste <br>and<br> why we still should do them</h3>
+					<p>
+						<small>By <a href="http://matlacz.pl">Adam Matłacz</a></small>
+					</p>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/amatlacz.jpg">
+					<div style="text-align: left;">
+					<h1>Who am I?</h1>
+					<h3>Adam Matlacz</h3>
+					<p>Test developer and Scrum Master<br>in Demant Technology Centre</p>
+					<p>Trener in Sages</p>
+					<p>
+						<small><i class="fa fa-home fa"></i> <a href="http://matlacz.pl/">matlacz.pl</a> | 
+						<i class="fa fa-twitter-square fa"></i> <a href="https://twitter.com/amatlacz"> @amatlacz</a></small>
+					</p>						
+					</div>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/Ink-Playing-poker.jpg">
+				<!--<section data-background-image="images/345eyrhfj.png" >-->
+					<div class="caption">
+						<h2>What are estimates?</h2>
+					</div>
+						<aside class="notes">
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/" >
+				<!-- <section data-background-image="images/scale-1987770_1920.jpg" > -->
+					<div class="caption">
+						<h2>Estimates vs forecasts</h2>
+					</div>
+					<aside class="notes">
+					Forecast opieram o dane historyczne - wiem ile do tej pory dostarczałem w sprincie, więc przewiduję że w kolejnym dostarczę tyle i tyle. Dodatkowo naturalnym jest, że nie przywiązujemy się do forecast - to tylko przewidywanie - podczas gdy często mamy tendencję do trakowania estymaty jako przybliżonego obrazu rzeczywistości - który jeśli się nie sprawdzi to lecą gromy - jak to nie dostarczyliście? Skoro oszacowano to na 3 dni a zajęło to 5 dni, to znaczy że coś zrobiliście źle...
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/Última_Cena_-_Juan_de_Juanes.jpg" >
+					<div class="caption">
+						<h2>First apostles</h2>
+					</div>
+						<aside class="notes">
+						Neil Killick, Vasco Duarte and Woody Zuill
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-color="#FFFFFF" data-background-image="images/success.png" data-background-size="70%" >
+				<!--<section data-background-image="images/345eyrhfj.png" >-->
+					<div class="caption">
+						<h2>Chances of success</h2>
+					</div>
+					<div class="caption fragment">
+						<p class="fragment">Succesful 29%</p>
+						<p class="fragment">Challenged 52%</p>
+						<p class="fragment">Failed 19%</p>
+						<p><small><i>~ Standish Chaos Report 2015</i>, <a href="https://www.infoq.com/articles/standish-chaos-2015">https://www.infoq.com/articles/standish-chaos-2015</a></small></p>
+					</div>
+					<aside class="notes">
+					Succesful 29% (on Time, On Budget, on Target, on Goal, Value and Satisfaction)
+					Challenged 52% (Challenged projects were considered late, over budget or did not meet the target)
+					Failed 19% (Failed projects were canceled or not adopted by the users)
+					Statystyki wyglądają trochę lepiej, jeżeli zastosowane zostaną konkretne metodologie - np. Agile - ale nadal wtedy:
+					Succesful 39%
+					Challenged 52%
+					Failed 9%
+					Ale nawet jeśli założymy, że te 29% sukcesu nas satysfakcjonuje - co z "outliers"? Projektami, które tak bardzo przekroczyły budżet, czy tez wiążą się z takim ryzykiem, które może zaważyć na losach firmy - może doprowadzić ją do upadku?
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/clock.jpg" >
+					<div class="caption">
+						<p class="fragment">Work expands so as to fill the time available for its completion.</p>
+						<p><small><i>~Parkinson's Law</i></small></p>
+					</div>
+						<aside class="notes">
+						To też wyjaśnia częsty fenoment - że gdy jedno zadanie się opóźnia - żadko kiedy potem udaje się w pojekcie "nadgonić". Należy zakładać, że każde kolejne zadanie zajmie przynajmniej tyle, ile się na nie przeznaczyło.
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/Cost.jpg" >
+					<div class="caption">
+						<p>cost of feature = f(g(e),h(a))</p>
+					</div>
+					<div class="caption fragment">
+						<p>g(e) - Essential complication <br><small>(how hard problem is on its own)</small></p>
+						<p>h(e) - Accidental complication <br><small>(we suck at our jobs)</small></p>
+						<p><small><a href="https://vimeo.com/79106557">7 minutes, 26 seconds, and the Fundamental Theorem of Agile Software Development</a></small></p>
+					</div>
+					<aside class="notes">
+						Gdy pytamy o estymatę, otrzymujemy zazwyczaj oszacowanie ile zajmie wykonanie danej pracy w idelanym świecie - podczas gdy powinniśmy szacować ile zajmie przejście tej pracy przez skomplikowany system - życie - wraz ze wszystkimi jego zmiennymi, ryzykami itd. Ludzie idą na wakacje, chorują, mają leprze dni, gorsze dni itd. Nawet, jeśli codziennie dojeżdżasz do pracy tą samą drogą - nigdy nie wiesz gdzie ani kiedy akurat wydarzy się jakiś wypadek na trasie, roboty drogowe itd.
+
+						Nawet, jeśli byli byśmy doskonali w estymowaniu - i tak nasze estymaty były by błędne ze względu na nieprzewidywalną rzeczywistość. A im odleglejsza jest realizacja zadania od momentu jego estymacji - tym większe są odchylenia od rzeczywistości.
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/how_to_build_your_dream_home_from_the_ground_up.jpg" >
+				<!-- <section data-background-image="images/scale-1987770_1920.jpg" > -->
+					<div class="caption">
+						<h2>Software development is unique</h2>
+					</div>
+					<div class="caption fragment">
+						<p>Walking on water and developing software from a specification are easy if both are frozen.</p>
+						<p><small>~Edward Berard</small></p>
+					</div>
+					<aside class="notes">
+					Istnieje też przeświadczenie, że oprogramowanie powinno być jak budowa domu - stać na mocnych fundamentach dobrej architektury i dobrych wymagań - podczas gdy tworzenie oprogramowania jest znacznie bardziej elastyczne. Owszem, możemy porównać tworzenie oprogramowania do budowania domu - jeżeli przyjmiemy, że najpierw stawiamy szałas, potem przyczepę kempingową, potem chatkę a na końcu murowany dom :) 
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/Candle-in-the-dark.jpg" >
+					<br><br><br><br><br><br><br><br>
+					<div class="caption">
+						<h2>I there a hope?</h2>
+					</div>
+					<aside class="notes">
+					Jeżeli estymowanie jest takie trudne, to czy możemy przewidzieć kiedy dany projekt się zakończy? Tak. Zamiast pytać ile zajmie dany projekt, spytajmy - biorąc pod uwagę obecny postęp prac oraz pozostałą do wykonania pracę kiedy zakończy się projekt? Lub też odwrotnie - biorąc pod uwagę obecny postęp prac, ile prac zostanie wykonanych do daty X?
+
+					A następnie w raz z postępem prac, iteracyjnie aktualizuj odpowiedź na te pytania a decyzje biznesowe podejmuj na podstawie danych, które do tej pory otrzymałeś a nie zgadywanek z początku projektu.
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/new-beginning-16510-1920x1200.jpg" >
+					<div class="caption">
+						<h2>The #NoEstimates premis</h2>
+					</div>
+						<aside class="notes">
+						Toyota no inventories. Wprowadzili koncepcję Just In Time - dostarczano elementy w momencie gdy były akurat potrzebne na linii produkcyjnej. Oczywiście nadal przechadając się po fabryce tojoty, można zauważyć małe zapasy znajdujące się na linii produkcyjnej - ale nie o to chodziło, by całkowicie wyeliminować zapasy - tylko by maksymalnie je zmniejszyć. W przypadku fabryk zamiast wielkich magazynów, zapasy zmniejszyły się do wielkości szafki znajdującej się koło pracownika. Koncepcję Just In Time można by równie dobrze nazwać "#NoInventories"
+						
+						Wszystko co bezposrednio nie daje wartosci klientowi jest "marnotrastwem". Dobrym sposobem na określenie czy coś jest "waste" czy nie jest opowiedzenie sobie na pytanie czy chcemy tego więcej? Np dwa razy/trzy razy więcej? Czy to oznacza, że mamy całkiem pozbyć się marnotrastwa? Nie! Po prostu chcemy tego mieć tak mało jak to możliwe - analogicznie do koncepcji . A jak już osiągniemy ten stan to zastanawiamy się jak jeszcze to ograniczyć - kaizen.
+
+						W takim razie, zadajmy sobie pytanie - czy estymaty same w sobie przynoszą wartość klientowi? Wartość jaka wynika z estymat to plany, szacunki, propozycje handlowe itd... Ale to nie jest wartość dla klienta! Klietna koniec końców interesuje działające oprogramowanie! Prawdziwą wartością klienta jest realizacja jego potrzeb biznesowych! Estymaty, plany, propozycje handlowe itd. stanowią jedynie drogę do realizacji tych potrzeb biznesowych, ale same w sobie nie niosą wartości. Oznacza to, że jeżeli istnieje możliwość ich ograniczenia/eliminacji - osiągniemy zysk w postaci redukcji "waste".
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<!--<section data-background-image="images/wtf.webp" >-->
+				<section data-background-color="#000000" data-background-video="media/Mind blown  Mind explosion.mp4" data-background-video-muted>
+					<div class="caption">
+						<h2>#NoEstimates &ne; not estimating</h2>
+					</div>
+					<br>
+					<div class="caption fragment">
+						<p class="fragment">J. B. Rainserger concept of #MehEstimates, like in:</p>
+						<p class="fragment">"Oh, estimates...</p>
+						<p class="fragment">Mech!... Yeah, I guess we're doing some, we are just not very concerned nor serious about them."</p>
+						<p><small><i>~ NoEstimates: How To Measure Project Progress Without Estimating</i>, by Vasco Duarte</small></p>
+					</div>
+					<aside class="notes">
+					J. B. Rainserger concept of #MehEstimates, like in "Oh, estimates... Mech!... Yeah, I guess we're doing some, we are just not very concerned nor serious about them."
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-image="images/pressure-690161_1920.jpg" >
+				<!-- <section data-background-image="images/scale-1987770_1920.jpg" > -->
+					<div class="caption">
+						<h2>Measurements</h2>
+					</div>
+					<aside class="notes">
+					</aside>
+				</section>
+
+				<!--################## Slide ##################-->
+				<section data-background-color="#FFFFFF" data-background-image="images/amatlacz2.JPG" data-background-size="75%" data-background-position="bottom">
+					<div style="text-align: left;">
+					<h1>Questions?</h1>
+
+					<p>
+						<small><i class="fa fa-home fa"></i> <a href="http://matlacz.pl/">matlacz.pl</a> | 
+						<i class="fa fa-twitter-square fa"></i> <a href="https://twitter.com/amatlacz"> @amatlacz</a></small>
+					</p>						
+					</div>
+					<aside class="notes">
+					</aside>
+				</section>
+
+			</div><!-- slides -->
+		</div><!-- reveal -->
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: false,
+				progress: true,
+				history: true,
+				center: true,
+				showNotes: false,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true },
+					//Section below is used, when you want to stream camera
+					//{ src: 'lib/js/reveal-embed-video.js' }
+				]
+			});
+		</script>
+	</body>
+</html>
